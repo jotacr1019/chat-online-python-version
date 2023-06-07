@@ -1,0 +1,155 @@
+@media(min-width: 500px) {
+    .root-welcome {
+        border: #000 1px solid;
+    }
+}
+
+.spinner {
+    width: 75px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid rgb(0, 0, 0);
+    border-right-color: rgb(255, 255, 255);
+    animation: s2 0.8s infinite linear;
+}
+
+@keyframes s2 {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.container-welcome {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-content: space-around;
+    gap: 10px;
+    height: 91vh;
+    padding: 28px 24px 8px;
+}
+
+@media(min-width: 500px) {
+    .container-welcome {
+        padding: 8px 50px;
+    }
+}
+
+@media(min-width: 952px) {
+    .container-welcome {
+        padding: 8px 65px;
+    }
+}
+
+@media(min-width: 1150px) {
+    .container-welcome {
+        padding: 8px 70px;
+    }
+}
+
+.text-welcome {
+    text-align: center;
+}
+
+.form-welcome {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    padding: 4px 4px 0px;
+    border-radius: 4px;
+}
+
+.div-email {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.imput-email {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+    padding: 0 8px;
+    color: var(--color-principal);
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-image: url('../../../assets/mail.png');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: 8px 7px;
+    padding-left: 50px;
+}
+
+.div-name {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.imput-name {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+    padding: 0 8px;
+    color: var(--color-principal);
+    border: 2px solid #000;
+    border-radius: 4px;
+    background-image: url('../../../assets/user.png');
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    padding-left: 50px;
+}
+
+.div-room {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.select-id {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+    padding: 0 8px;
+    color: var(--color-principal);
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+.div-id {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    visibility: hidden;
+}
+
+.imput-id {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+    padding: 0 8px;
+    color: var(--color-principal);
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+.btn-start {
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+    margin-top: 6px;
+    color: #000;
+    background-color: #9CBBE9;
+    border: none;
+    border-radius: 4px;
+}

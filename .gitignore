@@ -1,0 +1,7 @@
+node_modules
+dist
+.parcel-cache
+build
+.env
+key.json
+__pycache__
